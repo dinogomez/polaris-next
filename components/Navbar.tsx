@@ -14,7 +14,9 @@ export function Navbar() {
         <div className=" flex justify-around">
           <div className="flex w-2/5 justify-between">
             <div className="flex p-2 space-x-2">
-              <Ship size={20} className="" />
+              <Link href="/">
+                <Ship size={20} className="" />
+              </Link>
             </div>
             <div className=" flex space-x-4 text-sm">
               <Button className="p-0">

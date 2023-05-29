@@ -1,4 +1,5 @@
-import { Ship, Info } from "lucide-react";
+import { Ship, Info, Github } from "lucide-react";
+import Link from "next/link";
 
 export function Footer() {
   return (
@@ -20,13 +21,22 @@ export function Footer() {
               these tasks with ease.
             </p>
 
-            <div className="inline-flex items-center p-1 rounded mt-2 bg-yellow-400 text-black">
+            <div className="inline-flex items-center p-2 rounded mt-2 bg-yellow-400 text-black">
               <Info size={20} className="" />
 
               <span className="ml-2 text-sm font-bold tracking-wide  uppercase">
                 WORK IN PROGRESS
               </span>
             </div>
+            <Link href="https://github.com/dinogomez/polaris-next">
+              <div className="ml-2 inline-flex items-center p-2 rounded mt-2 bg-blue-400 text-white">
+                <Github size={20} className="" />
+
+                <span className="ml-2 text-sm font-bold tracking-wide  uppercase">
+                  REPOSITORY
+                </span>
+              </div>
+            </Link>
           </div>
         </div>
         <div className="">
