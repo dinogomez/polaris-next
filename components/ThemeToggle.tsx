@@ -20,7 +20,17 @@ export const ThemeToggle = () => {
 
   return (
     <Button className="p-0" onClick={toggleTheme}>
-      {oppositeTheme === "light" ? <Sun size={20} /> : <Moon size={20} />}
+      {oppositeTheme === "light" ? (
+        <Sun
+          className="fill-current hover:fill-zinc-600 hover:stroke-zinc-600"
+          size={25}
+        />
+      ) : (
+        <Moon
+          className="fill-current hover:fill-zinc-600 hover:stroke-zinc-600 "
+          size={25}
+        />
+      )}
     </Button>
   );
 };
