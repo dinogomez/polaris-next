@@ -14,20 +14,23 @@ export function Navbar() {
         <div className="flex w-full md:w-2/5 justify-between">
           <Link href="/">
             <div className="inline-flex items-center">
-              <div className="p-2 rounded-full hover:bg-zinc-600 dark:hover:bg-zinc-600 bg-stone-900 dark:bg-stone-50">
+              <div className="p-2 rounded-full hover:bg-zinc-600 dark:hover:bg-zinc-600">
                 {" "}
                 <Ship
-                  size={20}
-                  className="stroke-white dark:stroke-stone-900 hover:dark:stroke-white"
+                  size={25}
+                  className="stroke-black  dark:stroke-stone-900 hover:dark:stroke-white"
                 />
               </div>
+              <span className="font-extrabold text-3xl">Polaris</span>
             </div>
           </Link>
 
-          <div className=" flex space-x-4 text-sm">
-            <Button className="p-0">
+          <div className=" flex space-x-3 text-sm">
+            <Button className="">
               <Link className="space-x-0 m-0" href="/login">
-                <div className="text-lg">Signin</div>
+                <div className="py-1 px-4 m-0 rounded  bg-black text-white dark:text-white dark:bg-white dark:hover:bg-zinc-600 hover:bg-zinc-600 dark:text-black  text-md">
+                  Signin
+                </div>
               </Link>
             </Button>
             <ThemeToggle />

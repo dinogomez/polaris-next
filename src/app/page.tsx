@@ -35,7 +35,11 @@ export default function Home() {
           <div>
             <span className="text-5xl md:text-7xl font-bold">
               Crew Management
-              <br /> Made Easy!
+              <br /> Made{" "}
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90%">
+                Easy
+              </span>
+              !
             </span>
           </div>
 
@@ -51,10 +55,13 @@ export default function Home() {
             <HomeWidgetUser />
           </div>
           <div>
-            <HomeWidgetChart />
+            <HomeWidgetUser />
           </div>
           <div>
             <HomeWidgetUser />
+          </div>
+          <div className="md:col-span-3">
+            <HomeWidgetChart />
           </div>
         </div>
       </div>

@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export function Footer() {
   return (
-    <div className="inset-x-0 bottom-0  w-screen mt-1 flex justify-center  p-5  gap-4 bg-stone-950 text-stone-50">
+    <div className="inset-x-0 bottom-0  w-screen mt-1 flex justify-center  p-5  gap-4 border-t dark:border-neutral-700 dark:bg-neutral-800">
       <div className="w-2/5 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 ">
         <div className="">
           <div className="inline-flex items-center">
@@ -20,7 +20,7 @@ export function Footer() {
               Management and many more!
             </p>
 
-            <div className="inline-flex items-center p-2 rounded mt-2 bg-yellow-400 text-black">
+            <div className="inline-flex items-center p-2 rounded mt-2 bg-black text-white dark:bg-white dark:text-black">
               <Info size={20} className="" />
 
               <span className="ml-2 text-sm font-bold tracking-wide  uppercase">

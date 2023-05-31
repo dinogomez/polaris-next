@@ -67,7 +67,7 @@ export function HomeWidgetChart() {
         <CardDescription>See metrics and statistics</CardDescription>
       </CardHeader>
       <CardContent>
-        <ResponsiveContainer className="m-0" height={270}>
+        <ResponsiveContainer className="m-0" height={310}>
           <BarChart data={data}>
             <XAxis
               dataKey="name"
@@ -83,7 +83,7 @@ export function HomeWidgetChart() {
               axisLine={false}
               tickFormatter={(value) => `$${value}`}
             />
-            <Bar dataKey="total" fill="#FACC15" radius={[4, 4, 0, 0]} />
+            <Bar dataKey="total" fill="#10B981" radius={[4, 4, 0, 0]} />
           </BarChart>
         </ResponsiveContainer>
       </CardContent>
