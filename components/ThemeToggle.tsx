@@ -22,7 +22,7 @@ export const ThemeToggle = () => {
     <Button className="p-0" onClick={toggleTheme}>
       {oppositeTheme === "light" ? (
         <Sun
-          className="fill-current hover:fill-zinc-600 hover:stroke-zinc-600"
+          className="fill-current hover:fill-yellow-400 hover:stroke-yellow-400"
           size={25}
         />
       ) : (
