@@ -24,7 +24,7 @@ export default function Home() {
         <Link href="https://github.com/dinogomez/polaris-next">
           <div
             className="p-3 inline-flex bg-stone-900 dark:bg-stone-50 rounded-full text-stone-50 
-          hover:bg-zinc-600 dark:hover:bg-zinc-500 dark:hover:text-stone-50  dark:text-stone-900 text-sm gap-1 drop-shadow-lg"
+          hover:bg-zinc-600 dark:hover:bg-zinc-500 dark:hover:text-stone-50  dark:text-stone-900 text-sm gap-1 drop-shadow-lg shadow-lg"
           >
             <Star size={20} className="" />
             <span className="font-medium">Star Polaris on Github!</span>
