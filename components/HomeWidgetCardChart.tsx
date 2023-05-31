@@ -67,7 +67,7 @@ export function HomeWidgetChart() {
         <CardDescription>See metrics and statistics</CardDescription>
       </CardHeader>
       <CardContent>
-        <ResponsiveContainer className="m-0" height={300}>
+        <ResponsiveContainer className="m-0" height={270}>
           <BarChart data={data}>
             <XAxis
               dataKey="name"
