@@ -1,5 +1,5 @@
 "use client";
-import { Ship } from "lucide-react";
+import { Sparkle } from "lucide-react";
 import { useTheme } from "next-themes";
 import Link from "next/link";
 import { Button } from "./ui/button";
@@ -13,8 +13,9 @@ export function Navbar() {
       <div className="my-2 px-3 flex justify-around">
         <div className="flex w-full md:w-2/5 justify-between">
           <Link href="/">
-            <div className="inline-flex items-center">
-              <div className="p-2 rounded-full hover:bg-zinc-600 dark:hover:bg-zinc-600"></div>
+            <div className="inline-flex items-center gap-1">
+              <Sparkle size={30} className="fill-current" />
+
               <span className="font-extrabold text-3xl">Polaris</span>
             </div>
           </Link>

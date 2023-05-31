@@ -1,4 +1,4 @@
-import { Ship, Info, Bug } from "lucide-react";
+import { Info, Bug, Sparkle } from "lucide-react";
 import Link from "next/link";
 
 export function Footer() {
@@ -7,7 +7,7 @@ export function Footer() {
       <div className="w-2/5 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 ">
         <div className="">
           <div className="inline-flex items-center">
-            <Ship size={20} className="" />
+            <Sparkle size={20} className="fill-current" />
 
             <span className="ml-2 text-xl font-bold tracking-wide  uppercase">
               Polaris
@@ -15,9 +15,9 @@ export function Footer() {
           </div>
           <div className="mt-1 lg:max-w-sm">
             <p className="text-sm ">
-              Providing a minimalistic and efficient way to handle and service
-              your crew with Polaris Crew Management. Crew Selection, Vessel
-              Management and many more!
+              Provides a minimalistic and efficient way to handle and service
+              your crew. Crew Selection, Vessel Management and many more made
+              easy!
             </p>
 
             <div className="inline-flex items-center p-2 rounded mt-2 bg-black text-white dark:bg-white dark:text-black">
