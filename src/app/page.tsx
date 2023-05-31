@@ -18,6 +18,8 @@ import { HomeWidgetChart } from "../../components/HomeWidgetCardChart";
 export default function Home() {
   return (
     <div className="h-screen md:h-fit">
+      <div className="w-screen flex"></div>
+
       <div className="flex md:mt-5 justify-center flex-col items-center m-5">
         <Link href="https://github.com/dinogomez/polaris-next">
           <div

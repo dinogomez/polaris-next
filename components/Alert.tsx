@@ -1,4 +1,4 @@
-import { Info } from "lucide-react";
+import { Info, X } from "lucide-react";
 import { Alert, AlertDescription, AlertTitle } from "./ui/alert";
 
 interface AlertCardProps {
