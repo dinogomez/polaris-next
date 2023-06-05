@@ -4,7 +4,7 @@ import Link from "next/link";
 export function Footer() {
   return (
     <div className="inset-x-0 bottom-0  w-screen mt-1 flex justify-center  p-5  gap-4 border-t dark:border-neutral-700 dark:bg-neutral-800">
-      <div className="w-2/5 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 ">
+      <div className="w-2/5 md:w-3/5 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 ">
         <div className="">
           <div className="inline-flex items-center">
             <Sparkle size={20} className="fill-current" />
